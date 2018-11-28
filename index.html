@@ -487,13 +487,7 @@
 	  			<li><img id="user_pic"></li>
 			    <li class="dropdown" onclick="window.location = 'cart.php';">
 			    <button class="btn btn-primary" type="button"><i class="fa fa-shopping-bag" id="notifications"></i><span class="label label-pill label-danger cart" id="cart">
-			    	<?php
-			    	if (!empty($_SESSION['shopping_cart'])) {
-						echo count($_SESSION['shopping_cart']); 
-					}else{
-						echo "<script>document.getElementById('cart').style.visibility = 'hidden';</script>";
-					}
-			    	?>
+			    	1
 			    	</span>
 			    </button></li>
   				<li class="dropdown">
