@@ -409,7 +409,16 @@
 	  </ul>
 	 </div><!-- Wrapper -->
 	</center>
-	<script>
+<script>
+ var config = {
+apiKey: "AIzaSyCRsExIQXrPN09W7CJzrHBfLU6GCLjkEZU",
+authDomain: "application-1e548.firebaseapp.com",
+databaseURL: "https://application-1e548.firebaseio.com",
+projectId: "application-1e548",
+storageBucket: "application-1e548.appspot.com",
+messagingSenderId: "182269001439"
+};
+  firebase.initializeApp(config);
  firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     
